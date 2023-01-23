@@ -1,11 +1,5 @@
 defmodule Derivates do
 
-  # Literal could be a number or a variable.
-  # Expression could be a literal (number or x)
-  # or two expressions addition
-  # or two expressions multiplication
-  # or an expression multiplicated with an variable or a number.
-
   @type literal() :: {:num, number()} | {:var, atom()}
   @type expr() ::  literal()
   | {:add, expr(), expr()}
