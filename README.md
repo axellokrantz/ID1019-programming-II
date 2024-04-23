@@ -1,6 +1,11 @@
-# ID1019-Programming-II
+# IL1333 Hardware Security
 ## Course contents
-The course goes through partly the programming techniques that are used in functional programming languages, partly how programmes can be divided into several executing threads and how these can be coordinated. Examples of programming techniques are recursive definitions, non-updateable data structures, functions of higher order and so called “closures”. Coordination of multiple threads is shown, partly through modification of common data structures, partly through message passing between processes.
+* Physical attacks and "tamper resistance".
+* Side-channel attacks and countermeasures.
+* Introduction to lightweight cryptography.
+* Security for smart card and radio frequency identification tags (RFID-tags).
+* Design for physical unclonable functions (PUFs) and true random number generators.
+* Personal integrity in the Internet-of-Things era.
 
 The course will use a programming language as the main language but also show similarities and differences with other functional languages.
 
@@ -8,8 +13,9 @@ The course will use a programming language as the main language but also show si
 
 After passing the course, students should be able to:
 
-* Use recursion, pattern matching and non-modifiable data structures upon implementation in a functional programming language.
-* Use functions as first order objects and work with the functions of higher order.
-* Explain the basics of functional programming, its structure and operational semantics.
-* Evaluate functions with regard to time complexity.
-* Use message based multi-threaded programming. 
+* Describe state-of-the-art hardware security techniques and justify their applications and limitations.
+* Describe how the safety is guaranteed in an illustrating application.
+* Describe the threats against a system from hardware perspective and available countermeasures and apply the knowledge to choose an appropriate set of countermeasures for a certain threat assessment.
+* Analyse and make a critical balance between the performance, cost and safety of the system and illustrate compromises that are available for design engineers of electronic and embedded systems.
+* Explain the need of hardware security primitives and justify advantages and disadvantages with the different primitives and choose an appropriate primitive for a specific application.
+* Use the knowledge to build a small electronic or embedded system for increased safety and explain how the safety is guaranteed in the system.
